@@ -32,9 +32,9 @@ class App {
 
         this.polygon = new Polygon(
             this.stageWidth / 2,    // 가로 포지션(센터)
-            this.stageHeight / 2,   // 세로 포지션(센터)
-            this.stageHeight / 3,   // 사이 간격?
-            5 // N각형
+            this.stageHeight + (this.stageHeight / 4),   // 세로 포지션(센터)
+            this.stageHeight / 1.5,   // 사이 간격?
+            15 // N각형
         )
     }
 
